@@ -33,7 +33,16 @@ struct ContentView: View {
                     coffeeAmount == 1 ? Text("1 cup") : Text("\(coffeeAmount) cups")
                 }
             }
+        .navigationBarTitle("Sleep Tracker")
+        .navigationBarItems(trailing:
+            Button(action: calculateBedtime){
+                Text("Calculate")
+            }
+        )
         }
+    }
+    func calculateBedtime() {
+        
     }
 }
 

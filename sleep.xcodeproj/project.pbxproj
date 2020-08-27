@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7061ABD324F7D26D00E28DC4 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7061ABD224F7D26D00E28DC4 /* SleepCalculator.mlmodel */; };
 		70B68FE824F7A601006180A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B68FE724F7A601006180A8 /* AppDelegate.swift */; };
 		70B68FEA24F7A601006180A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B68FE924F7A601006180A8 /* SceneDelegate.swift */; };
 		70B68FEC24F7A601006180A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B68FEB24F7A601006180A8 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7061ABD224F7D26D00E28DC4 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		70B68FE424F7A601006180A8 /* sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B68FE724F7A601006180A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70B68FE924F7A601006180A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				70B68FED24F7A607006180A8 /* Assets.xcassets */,
 				70B68FF224F7A607006180A8 /* LaunchScreen.storyboard */,
 				70B68FF524F7A607006180A8 /* Info.plist */,
+				7061ABD224F7D26D00E28DC4 /* SleepCalculator.mlmodel */,
 				70B68FEF24F7A607006180A8 /* Preview Content */,
 			);
 			path = sleep;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B68FE824F7A601006180A8 /* AppDelegate.swift in Sources */,
+				7061ABD324F7D26D00E28DC4 /* SleepCalculator.mlmodel in Sources */,
 				70B68FEA24F7A601006180A8 /* SceneDelegate.swift in Sources */,
 				70B68FEC24F7A601006180A8 /* ContentView.swift in Sources */,
 			);
